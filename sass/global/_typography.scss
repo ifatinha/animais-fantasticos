@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function rem($pixel, $context: 16) {
+   @return math.div($pixel, $context)+rem;
+}
+
+@mixin typography-01($size) {}
+
+@mixin typography-02($size) {}
