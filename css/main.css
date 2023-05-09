@@ -6,3 +6,15 @@
 
 /* header */
 @import "header.css";
+
+/* animais section */
+@import "animais.css";
+
+/* faq section */
+@import "faq.css";
+
+/* contato section */
+@import "contato.css";
+
+/* footer */
+@import "footer.css";

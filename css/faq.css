@@ -1,0 +1,4 @@
+.faq-lista {
+    grid-column     : 2 / -1;
+    background-color: darkblue;
+}

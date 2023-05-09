@@ -4,20 +4,24 @@
 
 .header-menu {
     background-color: #fb5;
-    margin: 2rem 0;
-    width: 100%;
+    margin          : 2rem 0;
+    width           : 100%;
 }
 
 .header-menu ul {
-    display: flex;
+    display  : flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
+    gap      : 10px;
+    padding  : 10px;
 }
 
 .header-menu li a {
-    color: #222;
-    display: inline-block;
-    font-family: 'IBM Plex Mono', monospace;
-    padding: 10px;
+    color         : #222;
+    display       : inline-block;
+    font-family   : 'IBM Plex Mono', monospace;
+    font-weight   : bolder;
+    font-size     : .875rem;
+    letter-spacing: .1em;
+    padding       : 10px;
+    text-transform: uppercase;
 }

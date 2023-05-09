@@ -1,7 +1,24 @@
 body {
-    background-color: #faf6ed;
-    color: #222;
-    display: grid;
-    grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    background-color      : #faf6ed;
+    color                 : #222;
+    display               : grid;
+    grid-template-columns : 1fr 120px minmax(300px, 800px) 1fr;
     -webkit-font-smoothing: antialiased;
+}
+
+.grid-section {
+    display              : grid;
+    grid-column          : 2 / 4;
+    grid-template-columns: 90px 300px 1fr;
+    gap                  : 20px;
+    padding              : 10px;
+    width                : 100%;
+}
+
+.titulo {
+    font-family  : 'Playfair Display SC', georgia;
+    font-size    : 6rem;
+    grid-column  : 1 / -1;
+    line-height  : 1;
+    margin-bottom: 1rem;
 }
