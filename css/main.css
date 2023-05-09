@@ -106,11 +106,13 @@ a {
     background-color: darkcyan;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     background-color: darkgoldenrod;
   }
 }
+
 @media screen and (max-width: 767px) {
   .container {
     background-color: darkblue;
