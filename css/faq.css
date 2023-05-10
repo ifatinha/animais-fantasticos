@@ -1,4 +1,26 @@
 .faq-lista {
-    grid-column     : 2 / -1;
-    background-color: darkblue;
+    grid-column: 2 / -1;
+}
+
+.faq-lista dt {
+    color      : #e54;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    margin     : 2rem 0 .5rem;
+}
+
+.faq-lista dt::before {
+    background-color: #fb5;
+    content         : "";
+    display         : inline-block;
+    height          : 10px;
+    margin-right    : 10px;
+    width           : 20px;
+}
+
+.faq-lista dd {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-left: 30px;
 }

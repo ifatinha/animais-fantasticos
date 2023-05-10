@@ -25,11 +25,11 @@
     background-color: #faf6ed;
 }
 
-.animais-descricao{
+.animais-descricao {
     grid-column: 3;
 }
 
-.animais-descricao .animal-descricao{
+.animais-descricao .animal-descricao {
     margin-bottom: 3rem;
 }
 

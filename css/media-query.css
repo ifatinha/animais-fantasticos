@@ -1,0 +1,43 @@
+@media screen and (max-width: 800px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    .header,
+    .grid-section,
+    .copy {
+        grid-column: 1;
+    }
+
+    .grid-section {
+        grid-template-columns: 100px 1fr;
+        gap                  : 10px;
+    }
+
+    .animais-lista {
+        grid-column: 1;
+    }
+
+    .faq-lista,
+    .contato-mapa,
+    .contato-info {
+        grid-column: 1 / -1;
+    }
+
+    .contato-info {
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .header-menu,
+    .copy {
+        margin: 0;
+    }
+
+    .clear {
+        padding: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.contato-mapa {
+    grid-column: 2;
+}
+
+.contato-info {
+    grid-column: 3;
+}
+
+.contato-info li {
+    font-family  : Helvetica, Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.contato-info li::before {
+    background-color: #fb5;
+    content         : "";
+    display         : inline-block;
+    height          : 10px;
+    margin          : 0 10px;
+    width           : 15px;
+}
