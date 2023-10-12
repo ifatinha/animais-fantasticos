@@ -1,9 +1,15 @@
+html,
+body {
+    width: 100%s;
+}
+
 body {
     background-color      : #faf6ed;
     color                 : #222;
     display               : grid;
     grid-template-columns : 1fr 120px minmax(300px, 800px) 1fr;
     -webkit-font-smoothing: antialiased;
+    width: 100%;
 }
 
 .grid-section {
