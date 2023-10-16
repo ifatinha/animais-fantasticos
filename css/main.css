@@ -1,6 +1,9 @@
 /* reset */
 @import "minireset.css";
 
+/* animações */
+@import "keyframes.css";
+
 /* generics */
 @import "generics.css";
 

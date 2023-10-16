@@ -10,6 +10,10 @@
     overflow-y : scroll;
 }
 
+.animais-lista li {
+    cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar {
     width: 16px;
 }
@@ -50,4 +54,13 @@
     height          : 10px;
     margin-right    : 10px;
     width           : 40px;
+}
+
+.js .js-tabcontent .animal-descricao {
+    display: none;
+}
+
+.js .js-tabcontent .ativo {
+    display  : block;
+    animation: show .6s forwards;
 }

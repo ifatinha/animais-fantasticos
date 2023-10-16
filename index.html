@@ -12,13 +12,14 @@
    <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display+SC:wght@400;700&display=swap"
       rel="stylesheet">
-
    <link rel="stylesheet" href="css/main.css">
 
+   <script>document.documentElement.className += ' js';</script>
    <title>Animais Fantásticos</title>
 </head>
 
 <body>
+   <!-- start menu principal -->
    <header class="header">
       <nav class="header-menu">
          <ul>
@@ -29,11 +30,13 @@
          </ul>
       </nav>
    </header>
+   <!-- end menu principal -->
 
+   <!-- start section animais -->
    <section class="grid-section animais" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
 
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu">
          <li><img src="images/image-01.jpg" alt="Raposa" height="640" width="937"></li>
          <li><img src="images/image-02.jpg" alt="Esquilo" height="640" width="937"></li>
          <li><img src="images/image-03.jpg" alt="Lobo" height="640" width="937"></li>
@@ -42,8 +45,8 @@
          <li><img src="images/image-06.jpg" alt="Coala" height="640" width="937"></li>
       </ul>
 
-      <div class="animais-descricao">
-         <section class="animal-descricao">
+      <div class="animais-descricao js-tabcontent">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Raposa Vermelha</h2>
             <p>A raposa-vermelha (Vulpes vulpes) é a maior das raposas verdadeiras e um dos membros de maior
                distribuição entre a ordem Carnivora. É encontrada em todo o hemisfério Norte, incluindo a maior parte da
@@ -53,7 +56,7 @@
                mamíferos e aves. Devido à sua presença na Austrália, está incluída na lista das "100 espécies
                exóticas invasoras mais daninhas do mundo".</p>
          </section>
-         <section class="animal-descricao">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Esquilo</h2>
             <p>O esquilo (Sciurus vulgaris) é um mamífero pertencente à família Sciudidae e à ordem rodentia. Sua
                família comprende os esquilos arborícolas, terrestres, voadores e as marmotas, entre outros. Dentre os
@@ -61,7 +64,7 @@
                incluídas 43 espécies conhecidas. O esquilo mais comum, o europeu, possui pelagem avermelhada, cauda
                longa e tem pelos compridos nas orelhas. </p>
          </section>
-         <section class="animal-descricao">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Lobo</h2>
             <p>O lobo (também chamado de lobo-cinzento; nome científico: Canis lupus) é uma espécie de mamífero canídeo
                do gênero Canis. É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil
@@ -77,7 +80,7 @@
                espécies classificadas como lobos. Os demais lobos correspondem a subespécies derivadas dessas quatro
                espécies. </p>
          </section>
-         <section class="animal-descricao">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Urso</h2>
             <p>Os Ursos (latim científico: Ursidae) constituem uma família de mamíferos carnívoros de grande porte,
                contendo os ursos e os pandas. Eles são classificados como caníformes ou carnivoros caninos. Os ursos são
@@ -86,7 +89,7 @@
                arredondadas, cabelos desgrenhados, patas plantígradas com cinco garras não retráteis e caudas curtas.
             </p>
          </section>
-         <section class="animal-descricao">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Panda</h2>
             <p>O panda-gigante foi descrito pelo missionário francês Armand David em 1869 como Ursus melanoleucus. No
                ano seguinte, Alphonse Milne-Edwards ao examinar o material enviado por David, notou que os caracteres
@@ -98,7 +101,7 @@
                Ailuropus. William Henry Flower e Richard Lydekker em 1891 emendam o novo nome de Milne-Edwards para
                Aeluropus, resultando em uma considerável confusão na literatura subsequente. </p>
          </section>
-         <section class="animal-descricao">
+         <section class="animal-descricao js-animal">
             <h2 class="subtitulo">Coala</h2>
             <p>O coala (nome científico: Phascolarctos cinereus) é um mamífero marsupial herbívoro arbóreo nativo da
                Austrália. É o único representante existente da família Phascolarctidae e seus parentes vivos mais
@@ -112,7 +115,9 @@
          </section>
       </div>
    </section>
+   <!-- end section animais -->
 
+   <!-- start section faq -->
    <section class="grid-section faq" id="faq">
       <h1 class="titulo">Faq</h1>
 
@@ -133,7 +138,9 @@
             inventore, at iusto blanditiis odit dolore pariatur molestiae quia! Atque.</dd>
       </dl>
    </section>
+   <!-- end section faq -->
 
+   <!-- start section contato -->
    <section class="grid-section contato" id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="contato-mapa">
@@ -151,11 +158,17 @@
          <li><span>Serra Grande - PB</span></li>
       </ul>
    </section>
+   <!-- end section contato -->
 
+   <!-- start footer -->
    <footer class="copy">
       <p>Todos os direitos reservados.</p>
    </footer>
+   <!-- end footer -->
+
+   <!-- start clear -->
    <div class="clear"></div>
+   <!-- end clear -->
 
    <script src="js/script.js"></script>
 </body>
