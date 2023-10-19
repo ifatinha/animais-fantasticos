@@ -3,10 +3,14 @@
 }
 
 .faq-lista dt {
+    align-items: center;
     color      : #e54;
+    display    : flex;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bolder;
     margin     : 2rem 0 .5rem;
+    position   : relative;
+    width      : 100%;
 }
 
 .faq-lista dt::before {
@@ -18,9 +22,28 @@
     width           : 20px;
 }
 
+.faq-lista dt::after {
+    content    : "\2BA7";
+    margin-left: 0.5rem;
+}
+
+.js .js-accordion dt.open-accordion::after {
+    content: "\2BA5";
+}
+
+.faq-lista dt:hover {
+    cursor: pointer;
+}
+
 .faq-lista dd {
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.2;
+    display      : none;
+    font-family  : Helvetica, Arial, sans-serif;
+    line-height  : 1.2;
     margin-bottom: .5rem;
-    margin-left: 30px;
+    margin-left  : 30px;
+}
+
+.js .js-accordion .open-accordion {
+    animation: slideDown .5s forwards;
+    display  : block;
 }

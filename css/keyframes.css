@@ -9,3 +9,15 @@
         transform: translate3d(0px, 0, 0);
     }
 }
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        opacity   : 0;
+    }
+
+    to {
+        max-height: 100%;
+        opacity   : 1;
+    }
+}
