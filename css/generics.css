@@ -9,7 +9,7 @@ body {
     display               : grid;
     grid-template-columns : 1fr 120px minmax(300px, 800px) 1fr;
     -webkit-font-smoothing: antialiased;
-    width: 100%;
+    width                 : 100%;
 }
 
 .grid-section {
@@ -27,4 +27,15 @@ body {
     grid-column  : 1 / -1;
     line-height  : 1;
     margin-bottom: 1rem;
+}
+
+.js .js-scroll {
+    opacity  : 0;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.anima-scroll {
+    opacity   : 1;
+    transition: .5s;
+    transform : translate3d(0, 0, 0);
 }
