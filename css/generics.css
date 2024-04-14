@@ -1,6 +1,10 @@
 html,
 body {
-    width: 100%s;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
