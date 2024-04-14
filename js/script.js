@@ -25,7 +25,7 @@ function tabNavigation() {
 
 /** animated scroll */
 
-function animacaoScroll() {
+function animationScroll() {
    const sections = document.querySelectorAll(".js-scroll");
 
    if (sections.length) {
@@ -70,7 +70,7 @@ function accordion() {
 }
 
 /** scroll suave */
-function scrollSuave() {
+function smoothScroll() {
    const linksInternos = document.querySelectorAll(".js-menu a[href^='#']");
 
    function scrollToSection(event) {
@@ -91,7 +91,7 @@ function scrollSuave() {
 
 (() => {
    tabNavigation();
-   animacaoScroll();
+   animationScroll();
    accordion();
-   scrollSuave();
+   smoothScroll();
 })();
