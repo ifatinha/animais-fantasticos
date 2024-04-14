@@ -42,10 +42,9 @@ function animationScroll() {
          })
       }
 
-      animaScroll(sections, windowHalf);
+      animaScroll();
       window.addEventListener("scroll", animaScroll);
    }
-
 }
 
 /** accordion */
