@@ -43,7 +43,7 @@
     margin-left  : 30px;
 }
 
-.js .js-accordion .open-accordion {
+.js [data-anime="accordion"] .open-accordion {
     animation: slideDown .5s forwards;
     display  : block;
 }

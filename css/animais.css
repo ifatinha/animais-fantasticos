@@ -56,11 +56,21 @@
     width           : 40px;
 }
 
-.js .js-tabcontent .animal-descricao {
+.js [data-tab="content"] .animal-descricao {
     display: none;
 }
 
-.js .js-tabcontent .ativo {
+.js [data-tab="content"] .ativo {
     display  : block;
-    animation: show .6s forwards;
+    animation: show-right .6s forwards;
+}
+
+.js [data-tab="content"] .ativo.show-right {
+    display  : block;
+    animation: show-right .6s forwards;
+}
+
+.js [data-tab="content"] .ativo.show-down {
+    display  : block;
+    animation: show-down .6s forwards;
 }
