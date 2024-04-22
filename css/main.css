@@ -22,5 +22,8 @@
 /* footer */
 @import "footer.css";
 
+/* modal */
+@import "modal.css";
+
 /* media-query */
 @import "media-query.css";

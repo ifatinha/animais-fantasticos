@@ -1,5 +1,5 @@
 @media screen and (max-width: 800px) {
-    body {
+    .grid-container {
         grid-template-columns: 1fr;
     }
 
@@ -37,7 +37,11 @@
         margin: 0;
     }
 
-    .clear {
-        padding: 0;
+    .modal-container {
+        padding: 0 6%;
+    }
+
+    .modal {
+        padding: 1rem;
     }
 }

@@ -1,0 +1,82 @@
+.modal-container {
+   align-items     : center;
+   background-color: rgba(0, 0, 0, 0.5);
+   display         : none;
+   height          : 100vh;
+   inset           : 0;
+   justify-content : center;
+   position        : fixed;
+   width           : 100%;
+   z-index         : 2000;
+}
+
+.modal-container.ativo {
+   display: flex;
+}
+
+.modal {
+   background-color: white;
+   border          : 10px solid #fb5;
+   box-shadow      : 0 0 0 10px #fff;
+   padding         : 2.5rem;
+   position        : relative;
+}
+
+.ativo .modal {
+   -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation        : scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.modal-close {
+   background   : #e54;
+   border       : 4px solid #fff;
+   border-radius: 50%;
+   box-shadow   : 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+   color        : #fff;
+   cursor       : pointer;
+   font-family  : 'IBM Plex Mono', monospace;
+   font-size    : 1.2rem;
+   height       : 50px;
+   position     : absolute;
+   right        : -30px;
+   top          : -30px;
+   width        : 50px;
+}
+
+.form-login {
+   width: 100%;
+}
+
+.form-item {
+   font-family  : 'IBM Plex Mono', monospace;
+   margin-bottom: 1rem;
+   width        : 100%;
+}
+
+.form-item label {
+   display      : inline-block;
+   font-weight  : bold;
+   margin-bottom: .2rem;
+}
+
+.form-item input,
+.form-item button {
+   width: 100%;
+}
+
+.form-item input {
+   padding: .5rem;
+}
+
+.form-item button[type='submit'] {
+   background    : #e54;
+   border        : none;
+   border-radius : 4px;
+   color         : #fff;
+   cursor        : pointer;
+   font-weight   : 600;
+   font-family   : 'IBM Plex Mono', monospace;
+   letter-spacing: .1rem;
+   padding       : .5rem;
+   text-transform: uppercase;
+}

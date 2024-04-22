@@ -1,7 +1,7 @@
 .copy {
     background-color: #eb5;
     grid-column     : 3 / -1;
-    margin          : 2rem 0;
+    margin          : 2rem 0 3rem;
 }
 
 .copy p {
@@ -10,6 +10,3 @@
     padding    : 20px;
 }
 
-.clear {
-    padding: 10px;
-}
