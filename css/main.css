@@ -25,5 +25,8 @@
 /* modal */
 @import "modal.css";
 
+/* tooltip */
+@import "tooltip.css";
+
 /* media-query */
 @import "media-query.css";
