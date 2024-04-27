@@ -34,11 +34,11 @@ export default function initTooltip() {
 
       onMouseLive.element = this;
       onMouseLive.tooltipBox = tooltipBox;
+
       this.addEventListener('mouseleave', onMouseLive);
    }
 
    tooltips.forEach((item) => {
       item.addEventListener('mouseover', onMouseOver);
    })
-
 }
