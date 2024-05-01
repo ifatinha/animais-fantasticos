@@ -7,6 +7,7 @@ import initTooltip from './modules/tooltip.js';
 import initDropdownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initCountAnimals from './modules/numero-animais.js';
+import initOperation from './modules/funcionamento.js';
 
 (() => {
    tabNavigation();
@@ -18,4 +19,5 @@ import initCountAnimals from './modules/numero-animais.js';
    initDropdownMenu();
    initMenuMobile();
    initCountAnimals();
+   initOperation();
 })();

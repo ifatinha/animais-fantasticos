@@ -24,3 +24,18 @@
     margin          : 0 10px;
     width           : 15px;
 }
+
+[data-semana]::after {
+    background-color: #e54;
+    border-radius   : 50%;
+    border          : 1px solid #000;
+    content         : "";
+    display         : inline-block;
+    height          : 12px;
+    margin-left     : 4px;
+    width           : 12px;
+}
+
+[data-semana].open::after {
+    background-color: #3f4;
+}
