@@ -34,5 +34,8 @@
 /* menu mobile */
 @import "menu-mobile.css";
 
+/* numero animais */
+@import "numero-animais.css";
+
 /* media-query */
 @import "media-query.css";

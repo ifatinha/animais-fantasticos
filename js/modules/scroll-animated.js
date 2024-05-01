@@ -13,6 +13,8 @@ export default function animationScroll() {
 
             if (isSectionVisible) {
                section.classList.add("anima-scroll");
+            } else if (section.classList.contains('anima-scroll')) {
+               section.classList.remove('anima-scroll');
             }
          })
       }
