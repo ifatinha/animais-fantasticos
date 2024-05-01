@@ -1,4 +1,4 @@
-@keyframes show-right {
+@keyframes show-rightshow-right {
     from {
         opacity  : 0;
         transform: translate3d(-30px, 0, 0);

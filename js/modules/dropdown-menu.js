@@ -12,7 +12,7 @@ export default function initDropdownMenu() {
 
    function handleClick(event) {
       event.preventDefault();
-      this.classList.add('ativo');
+      this.classList.toggle('ativo');
 
       outsideClick(this, userEvents, () => {
          this.classList.remove('ativo');

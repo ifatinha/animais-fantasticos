@@ -1,0 +1,59 @@
+[data-menu="button"] {
+   display: none;
+}
+
+@media screen and (max-width: 800px) {
+   .js [data-menu="button"] {
+      align-items   : center;
+      background    : #222;
+      border        : none;
+      border-radius : 4px;
+      color         : #fff;
+      cursor        : pointer;
+      display       : flex;
+      font-family   : 'IBM Plex Mono', monospace;
+      font-weight   : bold;
+      gap           : 8px;
+      padding       : .5rem 1rem;
+      position      : relative;
+      text-transform: uppercase;
+      z-index       : 300;
+   }
+
+   .js [data-menu="button"]::before {
+      background: #fff;
+      box-shadow: 0 4px #fff, 0 -4px #fff;
+      content   : "";
+      display   : inline-block;
+      height    : 2px;
+      transition: transform .3s ease-in-out;
+      width     : 12px;
+   }
+
+   .js [data-menu="button"].ativo::before {
+      transform: rotate(90deg);
+   }
+
+   .js #menu {
+      display   : none;
+      background: #fb5;
+      box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+      left      : 0;
+      padding   : 60px 0 20px 0;
+      position  : absolute;
+      top       : 0;
+      transition: .3s ease-in-out;
+      width     : 160px;
+      z-index   : 200;
+   }
+
+   .js #menu.ativo {
+      animation: show-right .3s forwards;
+      display  : block;
+   }
+
+   .js .dropdown-menu {
+      border  : none;
+      position: static;
+   }
+}
